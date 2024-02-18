@@ -24,6 +24,7 @@ def txtRndrLocal(str, x = 1, b = 450):
     for i in str:
         if i == " ":
             print(i, end='')
+            sleep(((b / 1000) / len(str)))
         else:
             sleep(((b / 1000) / len(str)))
             print(i, end='')

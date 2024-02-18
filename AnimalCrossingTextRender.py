@@ -7,7 +7,7 @@ def txtRndr(str,x = 1):
         if i == " ":
             print(i, end='')
         else:
-            sleep((randrange(200,300)/1000))
+            sleep((randrange(300,400)/1000))
             print(i, end='')
     if x == 1:
         print('')
